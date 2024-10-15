@@ -1,8 +1,9 @@
 ---
 import { Picture } from "astro:assets";
-import heroImage from "assets/hero.png";
+import heroImage from "assets/bemasolutions-logo.png";
 import Link from "@components/ui/link.astro";
 import { Icon } from "astro-icon/components";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 ---
 
 <main
@@ -20,34 +21,31 @@ import { Icon } from "astro-icon/components";
   <div>
     <h1
       class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      Marketing website done with Astro
+      Bemasolutions Webdev and Marketing Integrated Solutions
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      Astroship is a starter template for startups, marketing websites & landing
-      pages.<wbr /> Built with Astro.build and TailwindCSS. You can quickly
-      create any website with this starter.
-    </p>
+      Bij BemaSolutions combineren we innovatieve marketingoplossingen met deskundige webontwikkeling om op maat gemaakte strategieën te creëren die resultaat opleveren. Van eCommerce-platforms tot aantrekkelijke landingspagina's en inzichtelijke analyses, onze aanpak is afgestemd op uw unieke bedrijfsbehoeften - allemaal geleverd met een persoonlijke touch. Laten we uw visie omzetten in werkelijkheid!<wbr />     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
+        href="/contact"
         target="_blank"
         class="flex gap-1 items-center justify-center"
         rel="noopener">
         <Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />
 
-         Download for Free
+         Vrijblijvende offerte
       </Link>
       <Link
         size="lg"
         style="outline"
         rel="noopener"
-        href="https://github.com/surjithctly/astroship"
+        href="/pricing"
         class="flex gap-1 items-center justify-center"
         target="_blank">
         <Icon class="text-black w-4 h-4" name="bx:bxl-github" />
-         GitHub Repo
-      </Link>
+        Prijsopties 
+         </Link> 
     </div>
   </div>
 </main>
